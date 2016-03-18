@@ -1,0 +1,51 @@
+#game{
+    margin: auto;
+    width: 600px;
+    height: 650px;
+    font: 18px Impact, sans-serif;
+    text-align: center;
+}
+.buttons{
+    margin: 10px;
+    text-decoration: none; 
+    padding: 10px 30px; 
+    border: none; 
+    font: 18px Impact, sans-serif;
+    color: #333333; 
+    background-color:#6699FF; 
+  }
+table{
+    margin: auto;
+    text-align: center;
+    color: #333333; 
+}
+#timer{
+    margin: 10px;
+    color: #333333; 
+}
+
+#restart {
+    visibility: hidden;
+    opacity: 0.5;
+}
+
+#restart:hover {
+    opacity: 1.0;
+}
+
+td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #3366FF;
+}
+
+.closed{
+    background: #6699FF;
+}
+.opened{
+    background: #FFFF99;
+    font: 18px Impact, sans-serif;
+}
+.bomb{
+    background: #FF6633;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Minesweeper</title>
+    </head>
+    <body>
+        <div id="game">
+            <input class="buttons" type="button" value = "Easy" onclick="chooseMode(600), startGame(9, 9, 10)">
+            <input class="buttons" type="button" value = "Medium" onclick="chooseMode(2400), startGame(16, 16, 40)">
+            <input class="buttons" type="button" value = "Hard" onclick="chooseMode(5940), startGame(16, 30, 99)"><br>
+            
+            <input class="buttons" id="restart" type="button" value = "Restart" onclick="restart()">
+            
+            
+        
+            <div id="timer"> </div>
+            <div id = "rrr"></div>
+        </div>
+        <script src="minesweeper.js"></script>
+        <script src="cell_1.js"></script>     
+    </body>
+</html>
